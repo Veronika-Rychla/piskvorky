@@ -14,16 +14,19 @@ h1 {
   box-sizing: border-box;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   width: 400px;
   text-align: center;
-  justify-content: center;
-  position: absolute;
-  left: 35%;
-  top: 5%;
 }
 
 .header-piskvorky {
@@ -49,6 +52,7 @@ h1 {
   color: white;
   text-decoration: none;
   display: block;
+  padding: 5px;
 }
 
 .button-pravidla:hover {
