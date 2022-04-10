@@ -110,3 +110,74 @@ h1 {
     width: 95%;
   }
 }
+
+.wrapper-hra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-hra {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  max-width: 80vmin;
+}
+
+.ovladani {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container-hra h1 {
+  text-align: center;
+}
+
+.herniplocha button {
+  width: 10%;
+  aspect-ratio: 1 / 1;
+  opacity: 0.4;
+  border: 1px solid black;
+}
+
+.herniplocha button:hover {
+  opacity: 0.6;
+}
+
+.herniplocha button:focus {
+  opacity: 0.6;
+}
+
+.home {
+  background-color: #1fcca4;
+  border: 0;
+  border-radius: 10%;
+}
+
+.home:hover {
+  background-color: #1cbb96;
+}
+
+.home:focus {
+  background-color: #1cbb96;
+}
+
+.restart {
+  background-color: #0197f6;
+  border: 0;
+  border-radius: 10%;
+}
+
+.restart:hover {
+  background-color: #0090e9;
+}
+
+.restart:focus {
+  background-color: #0090e9;
+}
+
+.herniplocha {
+  display: flex;
+  flex-wrap: wrap;
+}
